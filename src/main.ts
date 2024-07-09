@@ -4,6 +4,7 @@ import 'zone.js';
 import { SidebarComponent } from './app/core/components/shared/sidebar/sidebar.component';
 import { HeaderComponent } from './app/core/components/shared/header/header.component';
 import { RouterModule } from '@angular/router';
+import { appConfig } from './app/app.config';
 
 @Component({
   selector: 'app-root',
@@ -25,4 +26,4 @@ export class App {
   name = 'Angular';
 }
 
-bootstrapApplication(App);
+bootstrapApplication(App,appConfig);

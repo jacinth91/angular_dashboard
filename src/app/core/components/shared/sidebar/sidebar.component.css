@@ -16,3 +16,21 @@ letter-spacing: -0.02em;
 text-align: left;
 color: rgba(84, 87, 122, 1);
 }
+.side-typography-3{
+font-family: Dubai;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: -0.03em;
+text-align: left;
+
+}
+.side-typography-4{
+font-family: Dubai;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+color:rgba(50, 64, 84, 1);
+;
+}
