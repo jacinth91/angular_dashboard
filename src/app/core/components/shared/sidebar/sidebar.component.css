@@ -1,0 +1,18 @@
+.side-typography{
+font-family: Dubai;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: -0.03em;
+text-align: left;
+
+}
+.side-typography-2{
+font-family: Dubai;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: left;
+color: rgba(84, 87, 122, 1);
+}
