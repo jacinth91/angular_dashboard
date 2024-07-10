@@ -1,0 +1,28 @@
+.summary-card{
+  background-color:rgba(255, 255, 255, 1);
+  width: 212px;
+  height: 97px;
+
+}
+.typography-1{
+font-family: Dubai;
+font-size: 14px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: left;
+color: rgba(163, 174, 208, 1);
+
+
+}
+.typography-2{
+font-family: Dubai;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: -0.02em;
+text-align: left;
+color: rgba(27, 37, 89, 1);
+
+
+}
