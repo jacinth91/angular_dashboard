@@ -1,35 +1,31 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { TableModule } from 'primeng/table';
 
 @Component({
   selector: 'app-task-assigned',
   standalone: true,
-  imports: [TableModule],
+  imports: [TableModule,CommonModule],
   templateUrl: './task-assigned.component.html',
   styleUrl: './task-assigned.component.css'
 })
 export class TaskAssignedComponent {
-  products: any[] = [
+  users: any[] = [
     {
-      category: "Accessories",
-      name: "Bamboo Watch",
-      quantity: 24,
-      code: "f230fh0g3",
-
+      initial: "GH",
+      name: "Guy Hawkins",
+      handle: "guy"
     },
     {
-      category: "Accessories",
-      name: "Bamboo Watch",
-      quantity: 24,
-      code: "f230fh0g3",
-
+      initial: "GH",
+      name: "Guy Hawkins",
+      handle: "guy"
     },
     {
-      category: "Accessories",
-      name: "Bamboo Watch",
-      quantity: 24,
-      code: "f230fh0g3",
-
+      initial: "GH",
+      name: "Guy Hawkins",
+      handle: "guy"
     }
+    
   ]
 }
