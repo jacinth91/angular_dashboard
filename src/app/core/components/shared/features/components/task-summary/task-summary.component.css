@@ -1,0 +1,27 @@
+.task-sum{
+height: 346px;
+top: 205px;
+left: 276px;
+gap: 24px;
+opacity: 0px;
+background: rgba(255, 255, 255, 1);
+
+}
+.typography-1{
+font-family: Dubai;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: -0.03em;
+text-align: left;
+color:rgba(20, 21, 34, 1);
+
+}
+.view-button {
+    width: 100px;
+    height: 40px;
+    border: 1px solid rgba(195, 211, 226, 1)
+
+    
+    
+}

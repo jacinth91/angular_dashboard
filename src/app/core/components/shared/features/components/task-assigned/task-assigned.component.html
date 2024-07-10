@@ -1,1 +1,25 @@
-<p>task-assigned works!</p>
+<div class="mb-5 flex flex-wrap">
+    <p class="typography-1 mr-10">Task Assigned</p>
+    <button class="view-button border rounded">View More</button>
+</div>
+
+<div class="task-assign border rounded-2xl">
+    <p-table [value]="products" [tableStyle]="{ 'min-width': '50rem' }">
+        <ng-template pTemplate="header">
+            <tr>
+                <th>Code</th>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Quantity</th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-product>
+            <tr>
+                <td>{{ product.code }}</td>
+                <td>{{ product.name }}</td>
+                <td>{{ product.category }}</td>
+                <td>{{ product.quantity }}</td>
+            </tr>
+        </ng-template>
+    </p-table>
+</div>
